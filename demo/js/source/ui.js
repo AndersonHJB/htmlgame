@@ -49,7 +49,7 @@ if (typeof jQuery !== 'undefined') {
                 self.buttons = {
                     pause: $('<input type="button" value="æš‚åœ" class="nes-pause" disabled="disabled">').appendTo(self.controls),
                     restart: $('<input type="button" value="é‡å¯" class="nes-restart" disabled="disabled">').appendTo(self.controls),
-                    sound: $('<input type="button" value="¿ªÆôÉùÒô" class="nes-enablesound">').appendTo(self.controls),
+                    sound: $('<input type="button" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" class="nes-enablesound">').appendTo(self.controls),
                     zoom: $('<input type="button" value="æ”¾å¤§" class="nes-zoom">').appendTo(self.controls)
                 };
                 self.root.appendTo(parent);
@@ -710,7 +710,7 @@ if (typeof jQuery !== 'undefined') {
 
                 /*
                  *
-                 * nes.ui.screenshot() --> return <img> element :)
+                 * nes.ui.screenshot() --> return <imgs> element :)
                  */
                 screenshot: function() {
                     var data = this.screen[0].toDataURL("image/png"),
